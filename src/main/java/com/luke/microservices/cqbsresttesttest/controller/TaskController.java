@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Tag(name = "Tasks Management API",
-        description = "API Rest made with SpringBoot that is exposing endpoits to gestionate a list of tasks")
+        description = "API Rest made with SpringBoot that is exposing endpoints to Manage a list of tasks")
 @RestController
 @RequestMapping("/tasks")
 public class TaskController {

@@ -9,8 +9,8 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Spring Boot API")
+                        .title("CBQA SolutionsTest")
                         .version("1.0")
-                        .description("API documentation for Spring Boot application"));
+                        .description("API documentation for CBQA Test Luke application"));
     }
 }
